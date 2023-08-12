@@ -1,0 +1,22 @@
+{
+  "name": "twitter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "bootstrap": "^5.3.1",
+    "fontawesome-6-pro": "^6.4.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vuetify": "^3.3.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.6"
+  }
+}
