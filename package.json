@@ -8,15 +8,33 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "@vue/cli": "^5.0.8",
     "bootstrap": "^5.3.1",
     "fontawesome-6-pro": "^6.4.0",
-    "vue": "^3.3.4",
+    "vue-content-loader": "^2.0.1",
     "vue-router": "^4.2.4",
     "vuetify": "^3.3.12"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.4.6"
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "rimraf": "^5.0.1",
+    "vite": "^4.4.6",
+    "vue": "^3.3.4",
+    "vue-loader": "^17.2.2",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.14",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

@@ -1,15 +1,13 @@
 <template>
-  <div class="wrapper">
-    <header-view class="header"/>
-    <router-view/>
-    <thus-footer class="footy"/>
+  <div class="wrapperA">
+    <my-carousel/>
   </div>
 </template>
 
 <script>
-import HeaderView from './components/HeaderView.vue';
-import MyCarousel from './components/MyCarousel.vue';
-import ThusFooter from './components/ThusFooter.vue';
+import HeaderView from '../components/HeaderView.vue';
+import MyCarousel from '../components/MyCarousel.vue';
+import ThusFooter from '../components/ThusFooter.vue';
 export default{
   data(){
     return{
@@ -20,7 +18,7 @@ export default{
   components:{
     HeaderView,
     MyCarousel,
-    ThusFooter,
+    ThusFooter
   },
   
   mounted(){
@@ -38,13 +36,26 @@ export default{
 </script>
 
 <style scoped>
-.wrapper{
+
+.wrapperA{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* width: auto;
-  height: auto; */
+  width: 100vw;
+  margin-top: 7rem;
+  /* sTART */
+  background: linear-gradient(282deg, #000000, #ffffff, #2b3035);
+    background-size: 600% 600%;
+
+    animation: AnimationName 9s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+  /* fINISH */
 }
   .header{
     position: fixed;
@@ -59,7 +70,5 @@ export default{
   justify-content: space-between;
   width: auto;
 }
-    }
-
-
+      }
 </style>
