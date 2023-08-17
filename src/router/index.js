@@ -9,9 +9,9 @@ const router = createRouter({
       component: ()=> import('../views/MainPage.vue')
     },
     {
-      path: '/products',
-      name: 'mahsulot',
-      component: ()=> import('../views/ThatProduct.vue')
+      path: '/closet',
+      name: 'shkaf',
+      component: ()=> import('../views/ClosetThings.vue')
     },
     {
       path: '/serve',
@@ -25,9 +25,9 @@ const router = createRouter({
       component: () => import('../views/AboutNews.vue')
     },
     {
-      path: '/header',
-      name: 'header',
-      component: () => import('../components/HeaderView.vue')
+      path: '/bed',
+      name: 'yotoq',
+      component: () => import('../views/BedThings.vue')
     },
     {
       path: '/:pathMatch(.*)*',

@@ -1,17 +1,26 @@
 <template>
     <div class="wrapperB">
-        <h2>Biz bilan bog'laning!</h2>
         <div class="itemz">
             <img src="../assets/icons/mobile-button-solid.svg" class="icony">
-            <a href="tel:+998884964444">Qo'ng'iroq qiling</a>
+            <div class="string">
+              <a href="tel:+998884964444">Qo'ng'iroq qiling</a>
+              <span>+998 88 496 4444</span>
+            </div>
         </div>
         <div class="itemz">
             <img src="../assets/icons/envelope-open-solid.svg" class="icony">
-            <a href="mailto:bir@nima.ekan">E-xat yozing</a>
+            <div class="string">
+                <a href="mailto:bir@nima.ekan">E-xat yozing</a>
+                <span>bir@nima.ekan</span>
+            </div>
         </div>
         <div class="itemz">
             <img src="../assets/icons/telegram.svg" class="icony">
-            <a href="http://t.me/judazornik">Telegramdan murojaat</a>
+            <div class="string">
+                <a href="http://t.me/judazornik">Telegramdan murojaat</a>
+                <span>t.me/judazornik</span>
+            </div>
+            
         </div>
 
     </div>
@@ -20,11 +29,11 @@
 <style scoped>
     .wrapperB{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        margin-top:7rem;
-        padding: 5rem;
+        margin-top: 7rem;
+        padding: 2rem;
         width: 100vw;
         height: 100vh;
         background-color: black;
@@ -37,46 +46,69 @@
     .wrapperB a{
         font-size: 20px;
         border-radius: 14px;
-        color: white;
-        padding: 20px;
-        margin-left: 10px;
         font-weight: 700;
+        padding: 0.8rem;
+        transition: 0.3s ease;
+        color: black;
     }
 
     .wrapperB a:hover{
-        color: black;
+        color: white;
+        background-color: black;
     }
 
     .itemz{
         border: 1px solid gold;
         border-radius: 2rem;
+        background-color: #fff;
+        color: black;
         padding: 15px;
         display: flex;
-        width: 350px;
+        flex-direction: row;
+        width: 400px;
         height: 100px;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .itemz .string{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
+    .itemz:nth-child(1){
+        color: rgba(137, 43, 226, 0.867);
+    }
+
     .itemz:nth-child(2){
-        margin-top: 20px;
-        background-color: rgba(137, 43, 226, 0.867);
+        color: rgb(46, 40, 6);
     }
 
     .itemz:nth-child(3){
-        background-color: rgba(255, 217, 0, 0.747);
+        color: rgba(0, 90, 224, 0.753);
     }
 
-    .itemz:nth-child(4){
-        background-color: rgba(0, 90, 224, 0.753);
+    span{
+        font-size: 18px;
     }
 
     .icony{
-        width: 40px;
-        padding-left: 20px;
+        width: 60px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 20px;
     }
 
-    h2{
-        background-color: #fff;;
+    @media only screen and (max-width: 600px){
+        .wrapperB{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 </style>

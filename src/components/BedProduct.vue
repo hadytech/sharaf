@@ -66,28 +66,20 @@
     }
 }
 
-
 </style>
 
 <script>
-import img from '../assets/carousel/1.jpg'
-import img2 from '../assets/carousel/2.jpg'
-
+import img3 from '../assets/carousel/3.jpg'
 let altText = 'Tarmog`ingiz holati chaladur'
     export default{
         data(){
             return{
                 prod:[
                 {
-                    class: 'closet',
-                    name: '"Bahor" shkafi',
-                    img: img,
-                },
-                {
-                    class: 'closet',
-                    name: '"Omad" shkafi',
-                    img: img2,
-                },
+                    class: 'bed',
+                    name: '"Bahor" krovati',
+                    img: img3,
+                }
                 ]
             }
         }

@@ -10,10 +10,13 @@
     <div class="carousel-item active" v-for="(item, index) in caruselInfo" :key="index">
 
       <img :src="item.img" class="d-block w-100" alt="...">
+      <a href="">
       <div class="carousel-caption d-none d-md-block">
         <h5>{{ item.name }}</h5>
         <p>{{ item.info }}</p>
       </div>
+
+      </a>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -94,4 +97,5 @@ export default{
       }
       
     }
+
 </style>
