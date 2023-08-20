@@ -17,16 +17,14 @@
         text-align: center;
         padding: 3rem 5rem;
         background: rgb(131,58,180);
-background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+        background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
 }
 </style>
 
 <script>
 import BedProduct from '../components/BedProduct.vue';
-import SingleProduct from '../components/SingleProduct.vue';
     export default{
         components:{
-    SingleProduct,
     BedProduct
 }
     }

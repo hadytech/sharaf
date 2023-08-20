@@ -1,6 +1,6 @@
 <template>
     <div class="producty">
-        <SingleProduct/>
+        <ChesterThing/>
     </div>
 </template>
 
@@ -12,20 +12,20 @@
         letter-spacing: 0.01px;
         line-height: 60px;
         margin-top: 8rem;
+        height: 100vh;
         width: 100vw;
         text-align: center;
         padding: 3rem 5rem;
         background: rgb(131,58,180);
-        background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
 }
-
 </style>
 
 <script>
-import SingleProduct from '../components/SingleProduct.vue';
+import ChesterThing from '../components/ChesterThing.vue';
     export default{
         components:{
-            SingleProduct
-        }
+    ChesterThing,
+}
     }
 </script>

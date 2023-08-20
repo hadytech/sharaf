@@ -58,16 +58,16 @@ export default{
       ]
     }
   },
-  methods:{
-    search_product(data){
-      console.log('data',data)
-    }
-  },
-  mounted() {
-    this.$root.$on('searchProduct', (data)=> {
-      this.search_product(data)
-    })
-  }
+  // methods:{
+  //   search_product(data){
+  //     this.project_name = data
+  //   }
+  // },
+  // mounted() {
+  //   this.$root.$on('searchProduct', (data)=> {
+  //     this.search_product(data)
+  //   })
+  // }
 }
 </script>
 

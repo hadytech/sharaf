@@ -34,7 +34,8 @@ export default{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 100vw;
+        /* width: 100vw; */
+        /* height: 300px; */
         background-color: black;
         color: white;
         padding: 2.5rem;
@@ -78,9 +79,9 @@ export default{
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            height: auto;
+            /* height: auto; */
         }
-        
+    
 
     }
 </style>

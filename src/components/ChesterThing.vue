@@ -15,11 +15,12 @@
 <style scoped>
     .any{
         display: flex;
-        height: 1200px;
+        height: auto;
         width: 100%;
-        height: 100vh;
+        height: auto;
         flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
     .oneproduct{
         display: flex;
@@ -58,7 +59,7 @@
         display: flex;
         height: auto;
         width: 100%;
-        height: 1900px;
+        height: auto;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -68,44 +69,18 @@
 </style>
 
 <script>
-import img3 from '../assets/carousel/3.jpg'
-import qobil from '../assets/products/beds/qobil.jpg'
-import qobil1x1 from '../assets/products/beds/qobil1x1.jpg'
-import qobil2 from '../assets/products/beds/qobil2.jpg'
-import qobil2_1x1 from '../assets/products/beds/qobil2_1x1.jpg'
-import quyosh from '../assets/products/beds/quyosh.jpg'
-import zour from '../assets/products/beds/zour.jpg'
-
+import chester1 from '../assets/products/chester/chester.jpg/'
+// import chester1x1 from '../assets/products/chester/chester1x1/'
+let altText = 'Tarmog`ingiz holati chaladur'
     export default{
         data(){
             return{
                 prod:[
                 {
-                    class: 'bed',
-                    name: '"Bahor" krovati',
-                    img: img3,
-                },
-                {
-                    class: 'bed',
-                    name: '"Qobil" krovati',
-                    img: qobil,
-                },
-                {
-                    class: 'bed',
-                    name: '"Qobil 2" krovati',
-                    img: qobil2,
-                },
-                {
-                    class: 'bed',
-                    name: '"Quyosh" krovati',
-                    img: quyosh,
-                },
-                {
-                    class: 'bed',
-                    name: '"Zo`r" krovati',
-                    img: zour,
-                },
-
+                    class: 'chester',
+                    name: 'Chester',
+                    img: chester1,
+                }
                 ]
             }
         }

@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <header-view class="header"/>
-    <router-view/>
+    <router-view class="whole"/>
     <thus-footer class="footy"/>
   </div>
 </template>
@@ -38,18 +38,25 @@ export default{
 </script>
 
 <style scoped>
-.wrapper{
+*{
+  font-family: 'Poppins', sans-serif;
+}
+/* .wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* width: auto;
-  height: auto; */
-}
+  width: auto;
+} */
   .header{
     position: fixed;
     z-index: 99;
+    top: 0;
   }
+
+.footy{
+  margin-top: 6rem;
+}
 
   @media only screen and (max-width: 600px){
     .wrapper{
