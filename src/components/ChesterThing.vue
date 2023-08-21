@@ -2,7 +2,7 @@
     <div class="any">
         <div class="product" v-for="(item, index) in prod">
         <div class="thing">
-            <a href="#" class="oneproduct">
+            <a :href=item.link class="oneproduct">
             <img :src="item.img" :alt="item.altText">
             <h2>{{ item.name }}</h2>
             </a>
@@ -77,6 +77,7 @@ let altText = 'Tarmog`ingiz holati chaladur'
             return{
                 prod:[
                 {
+                    link: 'justchester',
                     class: 'chester',
                     name: 'Chester',
                     img: chester1,

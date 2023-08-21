@@ -43,7 +43,7 @@ export default{
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  margin-top: 7rem;
+  margin-top: 5rem;
   /* sTART */
   background: linear-gradient(282deg, #000000, #ffffff, #2b3035);
     background-size: 600% 600%;

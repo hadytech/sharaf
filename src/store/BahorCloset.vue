@@ -180,7 +180,6 @@ h2{
 </style>
 
 <script>
-import ChesterThing from '../components/ChesterThing.vue';
     export default{
         components:{
 }

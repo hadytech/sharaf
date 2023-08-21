@@ -1,10 +1,10 @@
 <template>
     <div class="producty">
         <div class="details">
-            <img src="../assets/products/closets/fayz1x1.jpg" alt="Rasm yuklana olmadi, qayta urining">
+            <img src="../assets/products/closets/umid1x1.jpg" alt="Rasm yuklana olmadi, qayta urining">
         </div>
         <div class="veryDetails">
-            <h2>"Fayz" shkafi</h2>
+            <h2>"Umid" shkafi</h2>
             <h3>Ma'lumotlar:</h3>
         <!-- <p>
             <span class="indicator">Fasad:</span>
@@ -12,15 +12,15 @@
         </p> -->
         <p>
             <span class="indicator">Bo`yi:</span>
-            <span class="indicated">235sm</span>
+            <span class="indicated">240sm</span>
         </p>
         <p>
             <span class="indicator">Eni:</span>
-            <span class="indicated">120sm</span>
+            <span class="indicated">190sm</span>
         </p>
         <p>
             <span class="indicator">Chuqurlik:</span>
-            <span class="indicated">35sm</span>
+            <span class="indicated">60sm</span>
         </p>
         <p>
             <span class="indicator">Xomashyo:</span>
@@ -30,7 +30,7 @@
         <hr>
         <p class="price">
             <span class="indicator">Narxi:</span>
-            <span class="indicated">2 000 000 so'm</span> 
+            <span class="indicated">3 300 000 so'm</span> 
             <a href="tel:+998884964444">Harid qilish</a>
         </p>
         </div>
@@ -180,7 +180,6 @@ h2{
 </style>
 
 <script>
-import ChesterThing from '../components/ChesterThing.vue';
     export default{
         components:{
 }

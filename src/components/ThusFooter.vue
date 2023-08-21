@@ -2,7 +2,10 @@
     <div class="wrapperF">
         <div class="brand">
             <img src="../assets/logo.png" class="fadliddin">
-            <span class="brandName">Sharaf Mebel 2023</span>
+            <div class="one">
+                <span class="brandName">Sharaf Mebel</span>
+                <span>Since 2013</span>
+            </div>
         </div>
         <social-media/>
         <div class="calls">
@@ -36,33 +39,44 @@ export default{
         align-items: center;
         /* width: 100vw; */
         /* height: 300px; */
-        background-color: black;
+        /* background-color: black; */
         color: white;
-        padding: 2.5rem;
+        padding: 1.5rem;
 
     }
     img{
        width: 120px;
     }
 
+    .one{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .one span:nth-child(2){
+        color: gray;
+        padding-top: -5px;
+    }
     .calls{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-content: center;
-        height: 200px;
+        height: 150px;
         text-align: center;
     }
 
     .calls a, span{
-        padding: 10px;
-        font-size: 18px;
-        font-weight: 500;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 400;
     }
-
+    .calls span{
+        font-weight: 800;
+    }
     span{
         padding-top: 0;
-        text-transform: uppercase;
     }
 
     .brand{
@@ -70,7 +84,7 @@ export default{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 200px;
+        height: 220px;
         font-size: 18px;
     }
     @media only screen and (max-width: 600px){
@@ -79,9 +93,12 @@ export default{
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            /* height: auto; */
         }
-    
+        .calls{
+            height: 100px;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
 
     }
 </style>

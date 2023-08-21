@@ -1,31 +1,42 @@
 <template>
     <div class="group">
-        <ul>
-            <li><a href="https://t.me/sharafmebeluz"><i class="fa-brands fa-telegram"></i>  Telegram</a></li>
-            <li><a href="https://instagram.com/sharafmebel"><i class="fa-brands fa-instagram"></i>  Instagram</a></li>
-            <li><a href="https://fb.com/sharafmebel"><i class="fa-brands fa-facebook"></i>  Facebook</a></li>
+        <div>
+            <p>Ijtimoiy sahifalarimiz:</p>
+            <span><a href="https://t.me/sharafmebeluz"><i class="fa-brands fa-telegram"></i>  Telegram</a></span>
+            <span><a href="https://instagram.com/sharafmebel"><i class="fa-brands fa-instagram"></i>  Instagram</a></span>
+            <span><a href="https://fb.com/sharafmebel"><i class="fa-brands fa-facebook"></i>  Facebook</a></span>
             <!-- <li><a href="#"><i class="fa-brands fa-tiktok"></i>  Tiktok</a></li>
             <li><a href="#"><i class="fa-brands fa-youtube"></i>  Youtube</a></li> -->
-        </ul>
+        </div>
     </div>
 </template>
 
 <style scoped>
-    .group ul{
+    .group div{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-content: center;
-        height: 200px;
+        text-align: center;
+        height: 180px;
+        padding-bottom: 1rem;
     }
 
-    ul li{
-        border: 5px;
-        list-style: none;
+    div p{
+        font-weight: 800;
     }
+
     a{
         padding: 10px;
-        font-size: 18px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    @media only screen and (max-width: 600px){
+        .group div{
+            height: 100px;
+            padding-bottom: 0.5rem;
+        }
     }
 </style>
 

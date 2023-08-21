@@ -10,15 +10,15 @@
         <div class="itemz">
             <img src="../assets/icons/envelope-open-solid.svg" class="icony">
             <div class="string">
-                <a href="mailto:bir@nima.ekan">E-xat yozing</a>
-                <span>bir@nima.ekan</span>
+                <a href="mailto:mamur@sharafmebel.uz">E-xat yozing</a>
+                <span>mamur@sharafmebel.uz</span>
             </div>
         </div>
         <div class="itemz">
             <img src="../assets/icons/telegram.svg" class="icony">
             <div class="string">
-                <a href="http://t.me/judazornik">Telegramdan murojaat</a>
-                <span>t.me/judazornik</span>
+                <a href="http://t.me/nurkhujaev">Telegramdan murojaat</a>
+                <span>t.me/nurkhujaev</span>
             </div>
             
         </div>
@@ -32,7 +32,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 7rem;
+        margin-top: 5rem;
         padding: 2rem;
         width: 100vw;
         height: 100vh;
@@ -103,12 +103,13 @@
         border-radius: 20px;
     }
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 720px){
         .wrapperB{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-top: 5rem;
         }
     }
 </style>

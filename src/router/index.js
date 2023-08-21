@@ -59,6 +59,61 @@ const router = createRouter({
       name: 'fayzcloset',
       component: () => import('../store/fayzcloset.vue')
     },
+    {
+      path: '/lolacloset',
+      name: 'lolacloset',
+      component: () => import('../store/lolacloset.vue')
+    },
+    {
+      path: '/nurcloset',
+      name: 'nurcloset',
+      component: () => import('../store/nurcloset.vue')
+    },
+    {
+      path: '/o3closet',
+      name: 'o3closet',
+      component: () => import('../store/oydin3closet.vue')
+    },
+    {
+      path: '/umidcloset',
+      name: 'umidcloset',
+      component: () => import('../store/umidcloset.vue')
+    },
+    {
+      path: '/u2closet',
+      name: 'u2closet',
+      component: () => import('../store/umid2closet.vue')
+    },
+    {
+      path: '/xoncloset',
+      name: 'xoncloset',
+      component: () => import('../store/xoncloset.vue')
+    },
+    {
+      path: '/qobilbed',
+      name: 'qobilbed',
+      component: () => import('../store/qobilbed.vue')
+    },
+    {
+      path: '/q2bed',
+      name: 'q2bed',
+      component: () => import('../store/qobil2bed.vue')
+    },
+    {
+      path: '/quyoshbed',
+      name: 'quyoshbed',
+      component: () => import('../store/quyoshbed.vue')
+    },
+    {
+      path: '/zour2bed',
+      name: 'zour2bed',
+      component: () => import('../store/zourbed.vue')
+    },
+    {
+      path: '/justchester',
+      name: 'justchester',
+      component: () => import('../store/justchester.vue')
+    },
 
   ]
 })

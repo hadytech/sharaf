@@ -2,7 +2,7 @@
     <div class="any">
         <div class="product" v-for="(item, index) in prod">
         <div class="thing">
-            <a href="#" class="oneproduct">
+            <a :href=item.link class="oneproduct">
             <img :src="item.img" :alt="item.altText">
             <h2>{{ item.name }}</h2>
             </a>
@@ -15,11 +15,14 @@
 <style scoped>
     .any{
         display: flex;
-        height: 1200px;
         width: 100%;
-        height: 100vh;
         flex-direction: row;
         flex-wrap: wrap;
+        background-color: none;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+
     }
     .oneproduct{
         display: flex;
@@ -53,18 +56,14 @@
         padding: 1rem;
     }
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 720px){
         .any{
         display: flex;
         height: auto;
         width: 100%;
-        height: 1900px;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
     }
 }
-
 </style>
 
 <script>
@@ -86,23 +85,26 @@ import zour from '../assets/products/beds/zour.jpg'
                     img: img3,
                 },
                 {
-                    class: 'bed',
+                    link: '/qobilbed',                    class: 'bed',
                     name: '"Qobil" krovati',
                     img: qobil,
                 },
                 {
+                    link: '/q2bed',
                     class: 'bed',
                     name: '"Qobil 2" krovati',
                     img: qobil2,
                 },
                 {
+                    link: '/quyoshbed',
                     class: 'bed',
-                    name: '"Quyosh" krovati',
+                    name: '"Quyosh 2" krovati',
                     img: quyosh,
                 },
                 {
+                    link: '/zour2bed',
                     class: 'bed',
-                    name: '"Zo`r" krovati',
+                    name: '"Zo`r 2" krovati',
                     img: zour,
                 },
 

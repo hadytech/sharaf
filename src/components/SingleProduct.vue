@@ -20,6 +20,7 @@
         flex-wrap: wrap;
         background-color: none;
         background-size: cover;
+        justify-content: center;
 
     }
     .oneproduct{
@@ -54,8 +55,9 @@
         padding: 1rem;
     }
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 720px){
         .any{
+        margin-top: 0rem;
         display: flex;
         height: auto;
         width: 100%;
@@ -125,6 +127,7 @@ import xon1x1 from '../assets/products/closets/xon1x1.jpg'
                 //     img: fayz1x1,
                 // },
                 {
+                    link: '/lolacloset',
                     class: 'closet',
                     name: '"Lola" shkafi',
                     img: lola,
@@ -136,6 +139,7 @@ import xon1x1 from '../assets/products/closets/xon1x1.jpg'
                 //     img: lola1x1,
                 // },
                 {
+                    link: '/nurcloset',
                     class: 'closet',
                     name: '"Nur" shkafi',
                     img: nur,
@@ -147,6 +151,7 @@ import xon1x1 from '../assets/products/closets/xon1x1.jpg'
                 //     img: nur1x1,
                 // },
                 {
+                    link: '/o3closet',
                     class: 'closet',
                     name: '"Oydin 3" shkafi',
                     img: oydin3,
@@ -158,6 +163,7 @@ import xon1x1 from '../assets/products/closets/xon1x1.jpg'
                 //     img: oydin3_1x1,
                 // },
                 {
+                    link: '/umidcloset',
                     class: 'closet',
                     name: '"Umid" shkafi',
                     img: umid,
@@ -169,6 +175,7 @@ import xon1x1 from '../assets/products/closets/xon1x1.jpg'
                 //     img: umid1x1,
                 // },
                 {
+                    link: '/u2closet',
                     class: 'closet',
                     name: '"Umid 2" shkafi',
                     img: umid2,
@@ -180,6 +187,7 @@ import xon1x1 from '../assets/products/closets/xon1x1.jpg'
                 //     img: umid2_1x1,
                 // },
                 {
+                    link: '/xoncloset',
                     class: 'closet',
                     name: '"Xon" shkafi',
                     img: xon,

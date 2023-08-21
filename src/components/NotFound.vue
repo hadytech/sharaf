@@ -19,7 +19,7 @@
         text-transform: uppercase;
         letter-spacing: 0.01px;
         line-height: 60px;
-        margin-top: 8rem;
+        margin-top: 5rem;
         height: 100vh;
         width: 100vw;
         padding: 3rem 5rem;
@@ -28,7 +28,7 @@
     }
 
     .notFound:hover{
-        transform: rotate(12deg);
+        transform: rotate(5deg);
     }
 
     h1{
@@ -37,5 +37,19 @@
     a{
         color: white;
         font-weight: 700;
+    }
+
+    @media only screen and (max-width: 720px){
+        *{
+            font-size: 25px;
+        }
+
+        .notFound:hover{
+        transform: none;
+    }
+
+        .notFound::after{
+        transform: rotate(5deg);
+    }
     }
 </style>

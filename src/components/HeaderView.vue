@@ -1,7 +1,7 @@
 <template>
     <nav class="umum navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <router-link class="navbar-brand" to="/"><img src="../assets/logo.png" alt=""> Sharaf Mebel</router-link>
+    <router-link class="navbar-brand" to="/"><img src="../assets/logo.png" alt="" class="logoo"> Sharaf Mebel</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -102,8 +102,8 @@ export default{
         width: 100%;
     }
 
-    img{
-        width: 100px;
+    .logoo{
+        width: 50px;
     }
 
       .svg{
